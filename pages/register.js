@@ -23,7 +23,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { useRouter } from "next/router";
 import "react-toastify/dist/ReactToastify.css";
 
-import Image from "next/image";
+import Head from "next/head";
 
 import logo from "../assets/images/logo.svg";
 import Link from "next/link";
@@ -78,6 +78,10 @@ function Register() {
   });
   return (
     <div>
+      <Head>
+        <title>ZenithPay | Create Account</title>
+      </Head>
+      
       <Navbar />
       <ToastContainer />
 
@@ -208,7 +212,7 @@ function Register() {
               </Stack>
 
               <Text mt={3}>
-                Have A Bitcloud Account? <Link href="/login">Log in</Link>
+                Have A ZenithPay Account? <Link href="/login">Log in</Link>
               </Text>
             </form>
           </Box>

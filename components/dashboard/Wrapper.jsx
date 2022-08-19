@@ -32,10 +32,9 @@ import {
 
 import Logo from "../../assets/images/logo.svg";
 import Image from "next/image";
-import { IconType } from "react-icons";
+import { ImFlattr } from "react-icons/im";
 import helpers from "../../helpers";
 import { useRouter } from "next/router";
-import SupportBtn from "../common/SupportBtn";
 
 const LinkItems = [
   { name: "Dashboard", href: "/dashboard", icon: BiGridAlt },
@@ -100,7 +99,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
       {...rest}
     >
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
-        <Image src={Logo} alt="" />
+        <ImFlattr size={30} color="white"/>
 
         <CloseButton
           display={{ base: "flex", md: "none" }}

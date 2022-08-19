@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
 import { Container, Button } from "@chakra-ui/react";
 import { FaCheckCircle } from "react-icons/fa";
 import CryptoChartTape from "../components/common/CryptoChartTape";
@@ -31,6 +32,9 @@ import { InvestmentPlanCard } from "./dashboard/invest";
 function index() {
   return (
     <div>
+      <Head>
+        <title>ZenithPay</title>
+      </Head>
       <Navbar />
       <Hero />
 
@@ -223,14 +227,18 @@ function index() {
                   mb={3}
                 >
                   <Text>
-                    Explore Quality <span style={{color: 'goldenrod'}}>Mining Technology</span>
+                    Explore Quality{" "}
+                    <span style={{ color: "goldenrod" }}>
+                      Mining Technology
+                    </span>
                   </Text>
                 </Heading>
                 <Text mt={10}>
-                  We at Bitcloud offer you the fastest and the most legit way to
-                  successfully accumulate your BTC. Our sophisticated technology
-                  does all the hard work, making sure that every customer is
-                  100% satisfied and that every mining goes through smoothly.
+                  We at ZenithPay offer you the fastest and the most legit way
+                  to successfully accumulate your BTC. Our sophisticated
+                  technology does all the hard work, making sure that every
+                  customer is 100% satisfied and that every mining goes through
+                  smoothly.
                 </Text>
 
                 <SimpleGrid

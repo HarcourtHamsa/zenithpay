@@ -22,6 +22,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from "@chakra-ui/icons";
+import { ImFlattr } from "react-icons/im";
 import Logo from "../../assets/images/logo.svg";
 
 export default function Navbar() {
@@ -53,7 +54,7 @@ export default function Navbar() {
           />
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-          <Image src={Logo} alt="" />
+          <ImFlattr size={25} />
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
             <DesktopNav />

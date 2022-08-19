@@ -134,10 +134,10 @@ export default function Hero() {
             },
             particles: {
               color: {
-                value: "#ECC94B",
+                value: "#eee",
               },
               links: {
-                color: "#ECC94B",
+                color: "#eee",
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
@@ -191,7 +191,7 @@ export default function Hero() {
             <Text>Join The Global Leader Of Financial Investments</Text>
           </Heading>
           <Text color={"white"}>
-            Bitcloud is a group of financial and cryptocurrency
+            ZenithPay is a group of financial and cryptocurrency
             experts that invest in mining and cryptocurrency trading. We
             carefully examine the volatility of bitcoin and other crypto
             currencies, invest and make good profit from our investments.

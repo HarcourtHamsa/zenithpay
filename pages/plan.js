@@ -12,7 +12,7 @@ import {
   Stack,
   VStack,
   useBreakpointValue,
-  Center
+  Center,
 } from "@chakra-ui/react";
 import {
   secure,
@@ -73,33 +73,41 @@ function Plan() {
         </Text>
 
         <SimpleGrid
-          columns={{ base: 1, md: 3 }}
+          columns={{ base: 1, md: 4 }}
           spacing={{ base: 5, lg: 8 }}
           my={30}
         >
           <InvestmentPlanCard
             title={"Basic Plan"}
-            priceRange={"$1,000 - $5.000"}
-            minimumAmount={"1,000"}
-            dailyProfit={"5.00"}
+            priceRange={"$250 - $500"}
+            minimumAmount={"250"}
+            dailyProfit={"3.00"}
             duration={"2 Weeks"}
-            minimumReturn={"2,010"}
+            minimumReturn={"670"}
           />
           <InvestmentPlanCard
             title={"Silver Plan"}
-            priceRange={"$5,000 - $10,000"}
-            minimumAmount={"5,000"}
+            priceRange={"$500 - $800"}
+            minimumAmount={"500"}
             dailyProfit={"7.00"}
             duration={"1 Month"}
-            minimumReturn={"5,560"}
+            minimumReturn={"2,560"}
           />
           <InvestmentPlanCard
             title={"Gold Plan"}
-            priceRange={"$10,000 - $15,000"}
-            minimumAmount={"10,000"}
-            dailyProfit={"9.00"}
+            priceRange={"$8000 - $1,800"}
+            minimumAmount={"8,000"}
+            dailyProfit={"8.65.00"}
             duration={"3 Months"}
-            minimumReturn={"9,200"}
+            minimumReturn={"21,250"}
+          />
+          <InvestmentPlanCard
+            title={"Gold Plan"}
+            priceRange={"$1,800 - $5,000"}
+            minimumAmount={"1,800"}
+            dailyProfit={"9.78.00"}
+            duration={"3 Months"}
+            minimumReturn={"37,210"}
           />
         </SimpleGrid>
       </Container>

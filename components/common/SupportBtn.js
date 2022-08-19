@@ -19,7 +19,7 @@ function SupportBtn() {
       padding="12px 25px"
       shadow="md"
       _hover={{ cursor: "pointer" }}
-      href="mailto:support@bitcloud.network"
+      href="mailto:support@zenithpay.network"
     >
       <BsQuestionCircle />
       <Text>support</Text>

@@ -106,7 +106,7 @@ function Contact() {
                       color="white"
                     >
                       <MdMail size={25} />
-                      <Link>support@bitcloud.network</Link>
+                      <Link>support@zenithpay.network</Link>
                     </Flex>
                   </Box>
                   <FormControl id="email">

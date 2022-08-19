@@ -10,6 +10,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { MdLocationOn } from "react-icons/md";
+import { ImFlattr } from "react-icons/im";
 import Logo from "../../assets/images/logo.svg";
 
 const ListHeader = ({ children }) => {
@@ -33,13 +34,13 @@ export default function Footer() {
         >
           <Stack spacing={6}>
             <Box>
-              <Image src={Logo} alt="" />
+              <ImFlattr size={30} />
             </Box>
             <Text fontSize={"sm"} display="flex" alignItems="center" gap="2">
               <MdLocationOn size={20} /> 2717 Commervial Center Blvd Ste E200
             </Text>
             <Text fontSize={"sm"}>
-              © 2022 Bitcloud Templates. All rights reserved
+              © 2022 ZenithPay Templates. All rights reserved
             </Text>
           </Stack>
           <Stack align={"flex-start"}>

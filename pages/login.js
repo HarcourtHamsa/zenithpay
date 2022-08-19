@@ -22,7 +22,7 @@ import helpers from "../helpers";
 import { AuthContext } from "../context/auth";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Image from "next/image";
+import Head from "next/head";
 
 import logo from "../assets/images/logo.svg";
 import Link from "next/link";
@@ -96,6 +96,10 @@ function Login() {
   });
   return (
     <div>
+       <Head>
+        <title>ZenithPay | Login </title>
+      </Head>
+      
       <ToastContainer />
       <Navbar />
       <Flex
@@ -181,7 +185,7 @@ function Login() {
               </Text>
 
               <Text mt={3}>
-                New to Bitcloud? <Link href="/register">Sign up</Link>
+                New to ZenithPay? <Link href="/register">Sign up</Link>
               </Text>
             </form>
           </Box>
