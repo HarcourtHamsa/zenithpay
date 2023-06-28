@@ -107,7 +107,7 @@ function Plan() {
             minimumAmount={"50,000"}
             dailyProfit={"9.78.00"}
             duration={"3 Months"}
-            minimumReturn={"185,400"}
+              minimumReturn={"72,400"}
           />
         </SimpleGrid>
       </Container>
