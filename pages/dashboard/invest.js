@@ -119,13 +119,13 @@ function Invest() {
             duration={"3 Months"}
             minimumReturn={"21,250"}
           />
-          <InvestmentPlanCard
-            title={"Gold Plan"}
-            priceRange={"$1,800 - $5,000"}
-            minimumAmount={"1,800"}
+           <InvestmentPlanCard
+            title={"Enterprise Plan"}
+            priceRange={"$50,000 - $120,000"}
+            minimumAmount={"50,000"}
             dailyProfit={"9.78.00"}
             duration={"3 Months"}
-            minimumReturn={"37,210"}
+            minimumReturn={"185,400"}
           />
         </SimpleGrid>
       </Wrapper>
