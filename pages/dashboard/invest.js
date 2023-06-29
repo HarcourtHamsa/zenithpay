@@ -97,8 +97,8 @@ function Invest() {
         >
            <InvestmentPlanCard
             title={"Basic Plan"}
-            priceRange={"$250 - $500"}
-            minimumAmount={"250"}
+            priceRange={"$100 - $500"}
+            minimumAmount={"100"}
             dailyProfit={"3.00"}
             duration={"2 Weeks"}
             minimumReturn={"670"}
