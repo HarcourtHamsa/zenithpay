@@ -69,7 +69,7 @@ function Plan() {
           <Text>Our Best Mining Plans</Text>
         </Heading>
         <Text fontSize="1rem" textAlign="center">
-          Choose a plan that suites you
+          Choose a plan that suits you
         </Text>
 
         <SimpleGrid
@@ -79,8 +79,8 @@ function Plan() {
         >
           <InvestmentPlanCard
             title={"Basic Plan"}
-            priceRange={"$250 - $500"}
-            minimumAmount={"250"}
+            priceRange={"$100 - $500"}
+            minimumAmount={"100"}
             dailyProfit={"3.00"}
             duration={"2 Weeks"}
             minimumReturn={"670"}
