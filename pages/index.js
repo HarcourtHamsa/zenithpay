@@ -33,7 +33,7 @@ function index() {
   return (
     <div>
       <Head>
-        <title>ZenithPay</title>
+        <title>ZedPay</title>
       </Head>
       <Navbar />
       <Hero />
@@ -234,7 +234,7 @@ function index() {
                   </Text>
                 </Heading>
                 <Text mt={10}>
-                  We at ZenithPay offer you the fastest and the most legit way
+                  We at ZedPay offer you the fastest and the most legit way
                   to successfully accumulate your BTC. Our sophisticated
                   technology does all the hard work, making sure that every
                   customer is 100% satisfied and that every mining goes through

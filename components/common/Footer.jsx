@@ -40,7 +40,7 @@ export default function Footer() {
               <MdLocationOn size={20} /> 2717 Commervial Center Blvd Ste E200
             </Text>
             <Text fontSize={"sm"}>
-              © 2022 ZenithPay Templates. All rights reserved
+              © 2022 ZedPay Templates. All rights reserved
             </Text>
           </Stack>
           <Stack align={"flex-start"}>

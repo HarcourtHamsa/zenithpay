@@ -79,7 +79,7 @@ function Register() {
   return (
     <div>
       <Head>
-        <title>ZenithPay | Create Account</title>
+        <title>ZedPay | Create Account</title>
       </Head>
       
       <Navbar />
@@ -212,7 +212,7 @@ function Register() {
               </Stack>
 
               <Text mt={3}>
-                Have A ZenithPay Account? <Link href="/login">Log in</Link>
+                Have A ZedPay Account? <Link href="/login">Log in</Link>
               </Text>
             </form>
           </Box>

@@ -97,7 +97,7 @@ function Login() {
   return (
     <div>
        <Head>
-        <title>ZenithPay | Login </title>
+        <title>ZedPay | Login </title>
       </Head>
       
       <ToastContainer />
@@ -185,7 +185,7 @@ function Login() {
               </Text>
 
               <Text mt={3}>
-                New to ZenithPay? <Link href="/register">Sign up</Link>
+                New to ZedPay? <Link href="/register">Sign up</Link>
               </Text>
             </form>
           </Box>

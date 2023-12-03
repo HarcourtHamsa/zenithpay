@@ -191,7 +191,7 @@ export default function Hero() {
             <Text>Join The Global Leader Of Financial Investments</Text>
           </Heading>
           <Text color={"white"}>
-            ZenithPay is a group of financial and cryptocurrency
+            ZedPay is a group of financial and cryptocurrency
             experts that invest in mining and cryptocurrency trading. We
             carefully examine the volatility of bitcoin and other crypto
             currencies, invest and make good profit from our investments.
